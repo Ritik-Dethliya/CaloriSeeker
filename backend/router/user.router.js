@@ -81,8 +81,9 @@ userRouter.patch("/updateuser",isAuth,async(req,res)=>{
 userRouter.get('/userdetails',isAuth,async(req,res)=>{
     try {
         let userId=req.userId ;
+        console.log(userId)
         let user=await userModel.findById(userId,{_id:0,__v:0,password:0});
-        //console.log(user)
+        console.log(user)
 
         if(!user)return res.status(404).send({"msg":"User Not Found"})
         res.status(200).send({user})
