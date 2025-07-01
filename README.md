@@ -4,11 +4,11 @@ NutriScan is a smart health companion that lets users scan food QR codes to get 
 **CaloriSeeker** is a smart dietary recommendation system that allows users to scan food items via QR codes and receive detailed nutritional insights, along with personalized health reports. Built with modern web technologies, this application is tailored for users who want to track their calorie intake and maintain a healthy lifestyle.
 
 ---
-![NutriScan Demo](./frontend/src/assets/CaloriSeeker.png)
-<div>
-    <img src="./frontend/src/assets/CaloriSeeker2.png">
-</div>
-
+<p align="center">
+  <img src="./frontend/src/assets/CaloriSeeker2.png" alt="CaloriSeeker Screenshot 1" width="45%" height="300px" loading="lazy"/>
+  &nbsp;&nbsp;
+  <img src="./frontend/src/assets/CaloriSeeker.png" alt="CaloriSeeker Screenshot 2" width="45%" height="300px" loading="lazy"/>
+</p>
 ## 📸 Demo
 
 👉 **Live Preview**: [https://caloriseeker.netlify.app/](https://caloriseeker.netlify.app/)
