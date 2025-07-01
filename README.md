@@ -5,6 +5,7 @@ NutriScan is a smart health companion that lets users scan food QR codes to get 
 
 ---
 <p align="center">
+<img src="./frontend/src/assets/CaloriSeeker4.png" alt="CaloriSeeker Screenshot 2" width="45%" height="300px" loading="lazy"/>
   <img src="./frontend/src/assets/CaloriSeeker2.png" alt="CaloriSeeker Screenshot 1" width="45%" height="300px" loading="lazy"/>
   &nbsp;&nbsp;
   <img src="./frontend/src/assets/CaloriSeeker.png" alt="CaloriSeeker Screenshot 2" width="45%" height="300px" loading="lazy"/>
