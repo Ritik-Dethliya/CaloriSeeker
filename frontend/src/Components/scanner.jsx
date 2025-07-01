@@ -119,7 +119,7 @@ const CustomQRScanner = () => {
   async function getCalories() {
     try {
 
-      const response = await fetch(`http://localhost:8000/dish/getDetails/${result}`);
+      const response = await fetch(`https://caloriseeker.onrender.com/dish/getDetails/${result}`);
       const rdata = await response.json();
       console.log(rdata["fooditems data"])
       setResultArray(rdata["fooditems data"])
@@ -143,7 +143,7 @@ const CustomQRScanner = () => {
       let micronutrients=formateMicroNutri(resultArray)
 
       console.log(micronutrients)
-      let res=await axios.post("http://localhost:8000/ai/generatehealthreport",
+      let res=await axios.post("https://caloriseeker.onrender.com/ai/generatehealthreport",
         {foodItem:[...FoodItemArray],
           quantity:plate,
           healthStander,

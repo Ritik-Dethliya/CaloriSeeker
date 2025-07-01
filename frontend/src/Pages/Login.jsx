@@ -17,7 +17,7 @@ function LoginPage() {
         }
         console.log(option)
         try {
-            let res=await fetch("http://localhost:8000/user/login",{
+            let res=await fetch("https://caloriseeker.onrender.com/user/login",{
             method:"POST",
             headers: {
                 "Content-Type": "application/json",

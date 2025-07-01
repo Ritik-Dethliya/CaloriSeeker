@@ -34,7 +34,7 @@ const UserContexProvider=({children})=>{
             let token=localStorage.getItem('caloritoken')
             console.log(token)
             if(!token)return console.log("Token not Present")
-            let res=await axios.get("http://localhost:8000/user/userdetails",{
+            let res=await axios.get("https://caloriseeker.onrender.com/user/userdetails",{
                 headers:{
                     "Content-Type": "application/json",
                     "Authorization":`Bearer ${token}`

@@ -29,7 +29,7 @@ function UserDetails() {
             let option=formState;
             try {
                 let token=localStorage.getItem('caloritoken')
-                let res=await fetch("http://localhost:8000/user/updateuser",{
+                let res=await fetch("https://caloriseeker.onrender.com/user/updateuser",{
                     method:"PATCH",
                     headers:{
                         "Content-Type": "application/json",
