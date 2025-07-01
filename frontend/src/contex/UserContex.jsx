@@ -44,6 +44,7 @@ const UserContexProvider=({children})=>{
             setUserdata(res.data.user)
             console.log(res.data.user)
         } catch (error) {
+            setLogin(false)
             console.log(error)
         }
     }

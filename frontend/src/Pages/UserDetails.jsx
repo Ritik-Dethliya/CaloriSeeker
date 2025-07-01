@@ -53,7 +53,7 @@ function UserDetails() {
         <>
             <Navbar/>
             <div className="detail-page-body">
-            <div className="login-form">
+            <div className="user-details-form">
                 <h3 
                     style={{width:"100%",textAlign:"center"}}
                 > Enter Your Details</h3>

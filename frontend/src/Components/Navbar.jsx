@@ -16,6 +16,7 @@ function Navbar() {
                 <div className="nav-links">
                     <Link to='/'>Home</Link>
                     <Link to='/user'>User</Link>
+                    <Link to='/update/userDetail'>Update</Link>
                     {!isLogin && <Link to="/login">Login</Link>}
                 </div>
             </nav>
