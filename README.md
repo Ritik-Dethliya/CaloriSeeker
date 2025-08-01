@@ -1,5 +1,5 @@
 # 🥗 CaloriSeeker
-NutriScan is a smart health companion that lets users scan food QR codes to get real-time nutritional information, including calories, protein, fat, and vitamins. The app calculates your ideal intake based on your body metrics and gives a personalized health report
+CaloriSeeker is a smart health companion that lets users scan food QR codes to get real-time nutritional information, including calories, protein, fat, and vitamins. The app calculates your ideal intake based on your body metrics and gives a personalized health report
 
 **CaloriSeeker** is a smart dietary recommendation system that allows users to scan food items via QR codes and receive detailed nutritional insights, along with personalized health reports. Built with modern web technologies, this application is tailored for users who want to track their calorie intake and maintain a healthy lifestyle.
 
